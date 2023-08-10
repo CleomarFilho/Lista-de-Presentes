@@ -2,15 +2,15 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  background-color: #10050d;
+  background-color: #eafbf0;
 }
 
 .cabecalho {
   width: 100%;
   height: auto;
-  border-bottom: 2px solid #f4dcee;
-  background-color: #105c23;
-  color: #f4dcee;
+  border-bottom: 2px solid #95eae0;
+  background-color: #eafbf0;
+  color: #020904;
   font-family: "Oswald", sans-serif;
 }
 #cabecalho-texto {

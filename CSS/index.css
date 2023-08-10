@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-bottom: 2px solid #f4dcee;
+  /* border-bottom: 2px solid #95eae0; */
 }
 #principal-imagem {
   height: 250px;
@@ -17,36 +17,53 @@
   text-align: center;
   margin: 10px;
   font-family: "Roboto", sans-serif;
-  color: #f4dcee;
+  color: #020904;
+  background-color: #d4e9f7;
+  padding: 20px;
+  border-radius: 20px;
 }
 .secundario {
   display: flex;
   justify-content: space-around;
   padding: 50px;
-  background-color: #105c23;
+  background-color: #eafbf0;
 }
 .terciario {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #d4e9f7;
+  padding: 80px 20px 80px 20px;
+  border-radius: 10px;
 }
 .secundario-imagens {
   height: 150px;
   width: 130px;
 }
 .botoes {
-  background-color: #ddd9dd;
+  background-color: #95eae0;
   text-align: center;
   min-width: 170px;
-  color: #3e463f;
+  color: #081d2b;
   margin: 10px;
   padding: 10px;
   border-radius: 10px;
   font-family: "roboto", sans-serif;
   transition: 0.4s;
+  font-size: 14px;
+  margin-top: 100px;
 }
 .botoes:hover {
-  color: azure;
   cursor: pointer;
-  background-color: #071318;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px 5px #95eae0;
+}
+#texto-solto {
+  color: #020904;
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  font-size: 30px;
+  background-color: #eafbf0;
+  margin: 0;
+  padding: 10px;
 }
