@@ -2,14 +2,16 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  background-color: #eafbf0;
+  background-color: #ffffff;
+  /* #eafbf0 */
 }
 
 .cabecalho {
   width: 100%;
   height: auto;
-  border-bottom: 2px solid #95eae0;
-  background-color: #eafbf0;
+  border-bottom: 2px solid #ffb084;
+  background-color: #ffffff;
+  /* #eafbf0 */
   color: #020904;
   font-family: "Oswald", sans-serif;
 }

@@ -18,7 +18,7 @@
   margin: 10px;
   font-family: "Roboto", sans-serif;
   color: #020904;
-  background-color: #d4e9f7;
+  background-color: #f2f2f2;
   padding: 20px;
   border-radius: 20px;
 }
@@ -26,13 +26,13 @@
   display: flex;
   justify-content: space-around;
   padding: 50px;
-  background-color: #eafbf0;
+  background-color: #ffffff;
 }
 .terciario {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #d4e9f7;
+  background-color: #f2f2f2;
   padding: 80px 20px 80px 20px;
   border-radius: 10px;
 }
@@ -41,7 +41,7 @@
   width: 130px;
 }
 .botoes {
-  background-color: #95eae0;
+  background-color: #ffb084;
   text-align: center;
   min-width: 170px;
   color: #081d2b;
@@ -57,14 +57,14 @@
 .botoes:hover {
   cursor: pointer;
   transform: scale(1.1);
-  box-shadow: 0px 0px 10px 5px #95eae0;
+  box-shadow: 0px 0px 10px 5px #ffb084;
 }
 #texto-solto {
   color: #020904;
   text-align: center;
   font-family: "roboto", sans-serif;
   font-size: 30px;
-  background-color: #eafbf0;
+  background-color: #ffffff;
   margin: 0;
   padding: 10px;
 }
