@@ -52,6 +52,7 @@
   transition: 0.4s;
   font-size: 14px;
   margin-top: 100px;
+  text-decoration: none;
 }
 .botoes:hover {
   cursor: pointer;
