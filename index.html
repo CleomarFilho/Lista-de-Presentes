@@ -7,30 +7,64 @@
     <link rel="stylesheet" href="./CSS/style.css" />
     <link rel="stylesheet" href="./CSS/index.css" />
     <script defer src="./JS/index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <img src="./Imagens/imagem header.png" alt="imagem Header" />
+    <header class="cabecalho">
+      <!-- <img
+        id="header-imagem"
+        class="imagens-header"
+        src="./Imagens/imagem header.png"
+        alt="imagem Header"
+      /> -->
+      <p id="cabecalho-texto">Lista de Presentes</p>
     </header>
-    <section>
-      <img src="./Imagens/perfil section.png" alt="foto de perfil" />
-      <p>
+    <section class="principal">
+      <img
+        id="principal-imagem"
+        class="principal-imagens"
+        src="./Imagens/perfil section.png"
+        alt="foto de perfil"
+      />
+      <p id="principal-texto">
         Ola amigos, esta aqui uma lista de coisas que poderá me ajudar, se for
         de seu desejo, desde já, muito obrigado!
       </p>
     </section>
-    <section>
-      <div>
-        <img src="./Imagens/presente section.png" alt="presente" />
-        <button>Lista de Presentes</button>
+    <section class="secundario">
+      <div class="terciario">
+        <img
+          id="secundario-imagem-presente"
+          class="secundario-imagens"
+          src="./Imagens/presente section.png"
+          alt="presente"
+        />
+        <a id="btn-presente" class="botoes">LISTAS DE PRESENTES</a>
       </div>
-      <div>
-        <img src="./Imagens/alfinete section.webp" alt="alfinete" />
-        <button>Informações de Endereço de entrega</button>
+      <div class="terciario">
+        <img
+          id="secundario-imagem-alfinete"
+          class="secundario-imagens"
+          src="./Imagens/alfinete section.webp"
+          alt="alfinete"
+        />
+        <a id="btn-alfinete" class="botoes">
+          INFORMAÇÕES DE ENDEREÇO E ENTREGA
+        </a>
       </div>
-      <div>
-        <img src="./Imagens/pix section.png" alt="Pix" />
-        <button>Pix</button>
+      <div class="terciario">
+        <img
+          id="secundario-imagem-pix"
+          class="secundario-imagens"
+          src="./Imagens/pix section.png"
+          alt="Pix"
+        />
+        <a id="btn-pix" class="botoes">PIX</a>
       </div>
     </section>
   </body>

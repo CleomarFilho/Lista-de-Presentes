@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&family=Work+Sans&display=swap");
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #10050d;
+}
+
+.cabecalho {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #f4dcee;
+  background-color: #105c23;
+  color: #f4dcee;
+  font-family: "Oswald", sans-serif;
+}
+#cabecalho-texto {
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  padding: 20px;
+}
+#header-imagem {
+  height: 70px;
+  width: 100px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

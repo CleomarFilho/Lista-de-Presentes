@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&family=Work+Sans&display=swap");
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid #f4dcee;
+}
+#principal-imagem {
+  height: 250px;
+  width: 270px;
+  border-radius: 100%;
+  margin: 20px;
+}
+#principal-texto {
+  width: 400px;
+  text-align: center;
+  margin: 10px;
+  font-family: "Roboto", sans-serif;
+  color: #f4dcee;
+}
+.secundario {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  background-color: #105c23;
+}
+.terciario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.secundario-imagens {
+  height: 150px;
+  width: 130px;
+}
+.botoes {
+  background-color: #ddd9dd;
+  text-align: center;
+  min-width: 170px;
+  color: #3e463f;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: "roboto", sans-serif;
+  transition: 0.4s;
+}
+.botoes:hover {
+  color: azure;
+  cursor: pointer;
+  background-color: #071318;
+}
