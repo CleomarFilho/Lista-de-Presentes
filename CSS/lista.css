@@ -65,7 +65,9 @@
   font-size: 18px;
   font-family: "roboto";
 }
-/* Exemplo de estilo global para o conteúdo do SweetAlert */
-.swal2-confirm {
-  background-color: black;
+#swal2-html-container {
+  font-family: "roboto";
+}
+.swal2-styled {
+  background-color: #ffb084;
 }

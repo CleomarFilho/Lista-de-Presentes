@@ -23,7 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
           title: "sweetalert-title", // Nome da classe para o título
           content: "sweetalert-content" // Nome da classe para o conteúdo
         },
-        fontFamily: 'work-sans', // Tipo de fonte desejado
+        fontFamily: 'work-sans',
+        confirmButtonColor: '#008000'
       });
     });
   });
