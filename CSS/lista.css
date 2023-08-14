@@ -61,3 +61,11 @@
   transform: scale(1.01);
   box-shadow: 0px 0px 10px 5px #06be00;
 }
+.sweetalert-title {
+  font-size: 18px;
+  font-family: "roboto";
+}
+/* Exemplo de estilo global para o conteúdo do SweetAlert */
+.swal2-confirm {
+  background-color: black;
+}
