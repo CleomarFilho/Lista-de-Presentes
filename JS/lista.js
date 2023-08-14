@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
           title: "sweetalert-title", // Nome da classe para o título
           content: "sweetalert-content" // Nome da classe para o conteúdo
         },
-        fontFamily: 'work-sans',
+        fontFamily: 'roboto',
         confirmButtonColor: '#008000'
       });
     });
