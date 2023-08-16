@@ -5,7 +5,7 @@ botaoPix.addEventListener("click", janelaPix)
 function janelaPix() {
   const PIX = "92994830999";
   Swal.fire({
-    imageUrl: "../Imagens/Pix.jpg",
+    imageUrl: "https://cleomarfilho.github.io/Lista-de-Presentes/Imagens/Pix.jpg",
     title: 'Pix: Cleomar de Souza Pontes Filho\n(92) 99483-0999',
     showDenyButton: true,
     confirmButtonText: 'Copiar PIX para área de transferência',
