@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         title: "Pix: Cleomar de Souza Pontes Filho\n(92) 99483-0999",
         text: `Valor: ${preco}`,
         icon: "info",
-        imageUrl: "../Imagens/pix.jpg",
+        imageUrl: "https://cleomarfilho.github.io/Lista-de-Presentes/Imagens/Pix.jpg",
         imageWidth: 200,
         imageHeight: 200,
         confirmButtonText: "OK",
