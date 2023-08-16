@@ -7,12 +7,15 @@
     <link rel="stylesheet" href="./CSS/style.css" />
     <link rel="stylesheet" href="./CSS/index.css" />
     <script defer src="./JS/index.js"></script>
+    <script defer src="./JS/botoes-cabecalho.js"></script>
+    <script defer src="./JS/botoes-index.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&family=Work+Sans&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body>
     <header class="cabecalho">
@@ -26,6 +29,7 @@
             src="../Imagens/person.svg"
             alt="contato"
             class="imagem-cabecalho"
+            id="botao-contato"
           />
         </button>
         <button class="botao-cabecalho">
@@ -33,6 +37,7 @@
             src="../Imagens/car-front.svg"
             alt="entrega"
             class="imagem-cabecalho"
+            id="botao-entrega"
           />
         </button>
       </div>
@@ -58,7 +63,7 @@
           src="./Imagens/presente section.png"
           alt="presente"
         />
-        <a id="btn-presente" class="botoes" href="./HTML/lista.html"
+        <a id="botao-presente" class="botoes" href="./HTML/lista.html"
           >LISTAS DE PRESENTES</a
         >
       </div>
@@ -69,7 +74,7 @@
           src="./Imagens/alfinete section.webp"
           alt="alfinete"
         />
-        <a id="btn-alfinete" class="botoes">
+        <a id="botao-alfinete" class="botoes">
           INFORMAÇÕES DE ENDEREÇO E ENTREGA
         </a>
       </div>
@@ -80,7 +85,7 @@
           src="./Imagens/pix section.png"
           alt="Pix"
         />
-        <a id="btn-pix" class="botoes">PIX</a>
+        <a id="botao-pix" class="botoes">PIX</a>
       </div>
     </section>
   </body>

@@ -35,6 +35,11 @@
   background-color: #f2f2f2;
   padding: 80px 20px 80px 20px;
   border-radius: 10px;
+  transition: 0.2s;
+}
+.terciario:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px 5px grey;
 }
 .secundario-imagens {
   height: 150px;
@@ -67,4 +72,8 @@
   background-color: #ffffff;
   margin: 0;
   padding: 10px;
+}
+.sweetalert-title {
+  font-size: 18px;
+  font-family: "roboto";
 }
