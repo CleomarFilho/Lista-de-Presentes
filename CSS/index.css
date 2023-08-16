@@ -77,3 +77,59 @@
   font-size: 18px;
   font-family: "roboto";
 }
+@media (max-width: 1020px) {
+  .terciario {
+    padding: 60px 15px 60px 15px;
+  }
+  #principal-imagem {
+    height: 220px;
+    width: 240px;
+    margin: 17px;
+  }
+  .botoes {
+    font-size: 11px;
+  }
+}
+@media (max-width: 880px) {
+  .terciario {
+    padding: 20px 5px 20px 5px;
+  }
+  #principal-imagem {
+    height: 190px;
+    width: 210px;
+    margin: 15px;
+  }
+  .botoes {
+    font-size: 11px;
+  }
+}
+@media (max-width: 880px) {
+  .secundario {
+    flex-direction: column;
+    align-items: center;
+    padding: none;
+    gap: 20px;
+  }
+  .terciario {
+    padding: 0;
+  }
+  .botoes {
+    width: 230px;
+    margin-top: 10px;
+  }
+  .secundario-imagens {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media (max-width: 550px) {
+  #principal-texto {
+    width: 300px;
+  }
+}
+@media (max-width: 400px) {
+  #principal-texto {
+    width: 250px;
+    font-size: 13px;
+  }
+}
