@@ -110,6 +110,9 @@
     padding: none;
     gap: 20px;
   }
+  #texto-solto {
+    font-size: 25px;
+  }
   .terciario {
     padding: 0;
   }
@@ -126,10 +129,21 @@
   #principal-texto {
     width: 300px;
   }
+  #texto-solto {
+    font-size: 20px;
+  }
+  #principal-imagem {
+    height: 190px;
+    width: 210px;
+  }
 }
 @media (max-width: 400px) {
   #principal-texto {
     width: 250px;
     font-size: 13px;
+  }
+  #principal-imagem {
+    width: 180px;
+    height: 140px;
   }
 }
