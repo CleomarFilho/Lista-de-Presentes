@@ -7,7 +7,7 @@ botaoContato.addEventListener("click", janelaContato);
 function janelaEntrega() {
   const CEP = "88317-280";
   Swal.fire({
-    title: 'Logradouro: Rua José Francisco Mastri 636\nBairro: Espinheiros\nCEP: 88317-280\nCidade: Itajaí\nUF: SC',
+    title: 'Nome: Cleidimar Pontes de Lima\nLogradouro: Rua José Francisco Mastri, 636\nBairro: Espinheiros\nCEP: 88317-280\nCidade: Itajaí\nUF: SC',
     showDenyButton: true,
     confirmButtonText: 'Copiar CEP para área de transferência',
     denyButtonText: `Sair`,
